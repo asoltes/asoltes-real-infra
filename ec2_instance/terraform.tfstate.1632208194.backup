@@ -1,0 +1,92 @@
+{
+  "version": 4,
+  "terraform_version": "1.0.5",
+  "serial": 1,
+  "lineage": "f03f8adb-8212-5c0d-7031-859b6c4532d4",
+  "outputs": {
+    "aws_instance_tfer--i-002D-0840579abab7e6c20__id": {
+      "value": "i-0840579abab7e6c20",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_instance",
+      "name": "tfer--i-002D-0840579abab7e6c20_",
+      "provider": "provider[\"registry.terraform.io/-/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "ami": "ami-01441c79a2c8e534b",
+            "arn": "arn:aws:ec2:ap-southeast-1:885239713196:instance/i-0840579abab7e6c20",
+            "associate_public_ip_address": "true",
+            "availability_zone": "ap-southeast-1a",
+            "capacity_reservation_specification.#": "1",
+            "capacity_reservation_specification.0.capacity_reservation_preference": "open",
+            "capacity_reservation_specification.0.capacity_reservation_target.#": "0",
+            "cpu_core_count": "1",
+            "cpu_threads_per_core": "1",
+            "credit_specification.#": "1",
+            "credit_specification.0.cpu_credits": "standard",
+            "disable_api_termination": "false",
+            "ebs_block_device.#": "0",
+            "ebs_optimized": "false",
+            "enclave_options.#": "1",
+            "enclave_options.0.enabled": "false",
+            "ephemeral_block_device.#": "0",
+            "get_password_data": "false",
+            "hibernation": "false",
+            "iam_instance_profile": "",
+            "id": "i-0840579abab7e6c20",
+            "instance_initiated_shutdown_behavior": "stop",
+            "instance_state": "running",
+            "instance_type": "t2.micro",
+            "ipv6_address_count": "0",
+            "ipv6_addresses.#": "0",
+            "key_name": "as-apse1-prod",
+            "launch_template.#": "0",
+            "metadata_options.#": "1",
+            "metadata_options.0.http_endpoint": "enabled",
+            "metadata_options.0.http_put_response_hop_limit": "1",
+            "metadata_options.0.http_tokens": "optional",
+            "monitoring": "false",
+            "network_interface.#": "0",
+            "outpost_arn": "",
+            "password_data": "",
+            "placement_group": "",
+            "primary_network_interface_id": "eni-09d3bf0c355785c47",
+            "private_dns": "ip-172-31-26-51.ap-southeast-1.compute.internal",
+            "private_ip": "172.31.26.51",
+            "public_dns": "ec2-54-151-177-124.ap-southeast-1.compute.amazonaws.com",
+            "public_ip": "54.151.177.124",
+            "root_block_device.#": "1",
+            "root_block_device.0.delete_on_termination": "true",
+            "root_block_device.0.device_name": "/dev/sda1",
+            "root_block_device.0.encrypted": "false",
+            "root_block_device.0.iops": "100",
+            "root_block_device.0.kms_key_id": "",
+            "root_block_device.0.tags.%": "0",
+            "root_block_device.0.throughput": "0",
+            "root_block_device.0.volume_id": "vol-08a21538d3bbf9884",
+            "root_block_device.0.volume_size": "8",
+            "root_block_device.0.volume_type": "gp2",
+            "secondary_private_ips.#": "0",
+            "security_groups.#": "1",
+            "security_groups.0": "launch-wizard-1",
+            "source_dest_check": "true",
+            "subnet_id": "subnet-3fb57b59",
+            "tags.%": "0",
+            "tags_all.%": "0",
+            "tenancy": "default",
+            "user_data_base64": "",
+            "vpc_security_group_ids.#": "1",
+            "vpc_security_group_ids.0": "sg-050b0baf2b360e327"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    }
+  ]
+}
