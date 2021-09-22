@@ -11,6 +11,3 @@ variable "subnet_cidr_block" {
 
 variable "vpc_name_tags" {
 }
-
-variable "subnet_name_tags" {
-}
