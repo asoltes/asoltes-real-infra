@@ -1,6 +1,6 @@
 
 module "my_network" {
-  source = "../module/vpc"
+  source = "../modules/vpc"
   vpc_cidr_block = "10.16.0.0/16"
   tenancy = "dedicated"
   subnet_cidr_block = "10.16.16.0/20"
@@ -8,7 +8,7 @@ module "my_network" {
 }
 
 module "my_ec2_instances" {
-  source = "../module/ec2"
+  source = "../modules/ec2"
   ami = "ami-01441c79a2c8e534b"
   ec2_count = 1
   instance_type = "10.16.0.0/16"
