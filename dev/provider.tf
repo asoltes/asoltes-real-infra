@@ -19,7 +19,6 @@ terraform {
 }
 
 provider "aws" {
-  alias = "aws_asoltes"
-  profile = "orientalgroup"
   region  = "ap-southeast-1"
+  profile = "asoltes-real"
 }
