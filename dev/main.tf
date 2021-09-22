@@ -10,9 +10,10 @@ module "my_network" {
 module "my_ec2_instances" {
   source = "../modules/ec2"
   ami = "ami-01441c79a2c8e534b"
-  ec2_count = 1
-  instance_type = "10.16.0.0/16"
+  ec2_count = 2
+  instance_type = "t2.micro"
   ec2_name_tags = "dev-app-ap-se-1"
-  subnet_id = module.my_network.main_vpc_id
+  subnet_id = module.my_network.subnet_id
+  availability_zone = "" 
 }
 
