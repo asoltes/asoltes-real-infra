@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"my_network","Source":"../modules/vpc","Dir":"../modules/vpc"},{"Key":"","Source":"","Dir":"."},{"Key":"my_ec2_instances","Source":"../modules/ec2","Dir":"../modules/ec2"}]}
