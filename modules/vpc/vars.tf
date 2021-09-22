@@ -7,9 +7,10 @@ variable "tenancy" {
 }
 
 variable "subnet_cidr_block" {
-  
 }
 
 variable "vpc_name_tags" {
-    default = "vpc_apse1"
+}
+
+variable "subnet_name_tags" {
 }
