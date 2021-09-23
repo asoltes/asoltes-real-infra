@@ -3,7 +3,7 @@ terraform {
     organization = "asoltes-real"
 
     workspaces {
-      name = "dev"
+      name = "prod"
     }
   }
 

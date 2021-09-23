@@ -9,12 +9,12 @@ variable "instance_type" {
     default = "t2.micro"
   }
 
-variable "ec2_name_tags" {
+variable "instance_name" {
     type = string
     default = "terra-app"
 }
 
-variable "ec2_count" {
+variable "instance_count" {
   type = number
 }
 
