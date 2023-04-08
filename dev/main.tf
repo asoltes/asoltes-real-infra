@@ -18,7 +18,7 @@ module "my_ec2_instances" {
 
 }
 
-module "atlantis" {
+module "atlantis-drive" {
   source              = "../modules/ec2"
   ami                 = "ami-01441c79a2c8e534b"
   instance_count      = 2
